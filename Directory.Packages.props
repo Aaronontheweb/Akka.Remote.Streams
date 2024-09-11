@@ -1,0 +1,15 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Akka">
+    <AkkaVersion>1.5.28</AkkaVersion>
+  </PropertyGroup>
+
+  <!-- Akka.NET Package Versions -->
+  <ItemGroup>
+    <PackageVersion Include="Akka.Remote" Version="$(AkkaVersion)" />
+    <PackageVersion Include="Akka.Streams" Version="$(AkkaVersion)" />
+  </ItemGroup>
+</Project>
