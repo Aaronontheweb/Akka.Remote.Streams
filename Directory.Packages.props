@@ -9,6 +9,6 @@
   <ItemGroup>
     <PackageVersion Include="Akka.Remote" Version="$(AkkaVersion)" />
     <PackageVersion Include="Akka.Streams" Version="$(AkkaVersion)" />
-    <PackageVersion Include="System.IO.Pipelines" Version="8.0.0" />
+    <PackageVersion Include="System.IO.Pipelines" Version="9.0.0" />
   </ItemGroup>
 </Project>
